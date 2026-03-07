@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1e3a5f;
+  --color-navy-light: #264a73;
+  --color-navy-dark: #0f1b2d;
+  --color-amber: #d4952a;
+  --color-amber-light: #e0a840;
+  --color-slate: #94a3b8;
+  --color-surface: #f4f5f7;
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-navy-dark);
+  color: white;
+}

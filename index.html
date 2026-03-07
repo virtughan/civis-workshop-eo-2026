@@ -6,7 +6,7 @@
     <title>CIVIS Workshop on Earth Observation Sciences 2026</title>
     <meta
       name="description"
-      content="CIVIS Student Led Workshop on Earth Observation Sciences. Explore Earth Observation with VirtuGhan. April 13-14, 2026, Ideas Lab, University of Salzburg."
+      content="CIVIS Student Led Workshop on Earth Observation Sciences. Explore Cloud Native Geospatial technologies, COG, Data cubes and Python EO analysis with VirtuGhan. April 13-14, 2026, University of Salzburg."
     />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -44,12 +44,19 @@
     <main>
       <section
         id="hero"
-        class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-navy-dark via-navy to-navy-light px-6 text-center"
+        class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-navy-dark px-6 text-center"
       >
-        <div class="absolute inset-0 opacity-10">
-          <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--color-amber)_0%,_transparent_60%)]"></div>
-        </div>
+        <img
+          src="./imgs/satellite.jpg"
+          alt=""
+          aria-hidden="true"
+          class="absolute inset-0 h-full w-full object-cover opacity-40"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/15 via-navy-dark/35 to-navy-dark/95"></div>
         <div class="relative z-10 mx-auto max-w-4xl" data-aos="fade-up">
+          <div class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full border border-amber/30 bg-amber/10">
+            <i data-lucide="satellite" class="h-8 w-8 text-amber"></i>
+          </div>
           <p class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-amber">
             CIVIS Student Led Workshop
           </p>
@@ -57,14 +64,8 @@
             Earth Observation
             <span class="block text-amber">Sciences</span>
           </h1>
-          <p class="mx-auto mb-4 max-w-2xl text-lg text-slate md:text-xl">
-            Explore Earth Observation with
-            <a
-              href="https://www.virtughan.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-semibold text-amber-light underline decoration-amber/40 underline-offset-4 transition hover:decoration-amber"
-            >VirtuGhan</a>
+          <p class="mx-auto mb-6 max-w-xl text-sm tracking-wide text-slate/70">
+            Cloud Native Geospatial &middot; COG &middot; Data Cubes &middot; Python
           </p>
           <p class="mb-10 inline-block rounded-full border border-amber/30 bg-amber/10 px-5 py-2 text-sm font-medium text-amber-light">
             April 13 &ndash; 14, 2026 &middot; University of Salzburg
@@ -93,9 +94,12 @@
 
       <section id="details" class="bg-navy py-24">
         <div class="mx-auto max-w-6xl px-6">
-          <h2 class="mb-16 text-center font-heading text-3xl font-bold md:text-4xl" data-aos="fade-up">
+          <h2 class="mb-6 text-center font-heading text-3xl font-bold md:text-4xl" data-aos="fade-up">
             Workshop <span class="text-amber">Details</span>
           </h2>
+          <p class="mx-auto mb-16 max-w-2xl text-center text-slate" data-aos="fade-up" data-aos-delay="50">
+            Learn how to efficiently access and analyse large-scale Earth Observation data using Cloud Native Geospatial techniques, tiled formats, data cubes and scalable Python workflows.
+          </p>
           <div class="grid gap-8 md:grid-cols-3">
             <div
               class="rounded-2xl border border-white/10 bg-navy-dark/60 p-8 text-center backdrop-blur-sm transition hover:border-amber/30"
@@ -116,7 +120,7 @@
                 <i data-lucide="clock" class="h-7 w-7"></i>
               </div>
               <h3 class="mb-2 font-heading text-lg font-bold">Time</h3>
-              <p class="text-slate">10:00 AM &ndash; 2:00 PM</p>
+              <p class="text-slate">10:00 AM &ndash; 3:00 PM</p>
             </div>
             <div
               class="rounded-2xl border border-white/10 bg-navy-dark/60 p-8 text-center backdrop-blur-sm transition hover:border-amber/30"
@@ -130,22 +134,111 @@
               <p class="text-slate">Ideas Lab, University of Salzburg</p>
             </div>
           </div>
+
+          <div class="mt-16 rounded-2xl border border-white/10 bg-navy-dark/40 p-10 backdrop-blur-sm" data-aos="fade-up">
+            <h3 class="mb-6 text-center font-heading text-xl font-bold">
+              <i data-lucide="users" class="mr-2 inline h-5 w-5 text-amber"></i>
+              Who Should Attend
+            </h3>
+            <div class="grid gap-6 md:grid-cols-2">
+              <div>
+                <h4 class="mb-2 font-heading font-semibold text-amber-light">Target Audience</h4>
+                <ul class="space-y-2 text-slate">
+                  <li class="flex items-start gap-2"><i data-lucide="check" class="mt-1 h-4 w-4 shrink-0 text-amber"></i>Students and professionals interested in Earth Observation</li>
+                  <li class="flex items-start gap-2"><i data-lucide="check" class="mt-1 h-4 w-4 shrink-0 text-amber"></i>Participants from any CIVIS member university</li>
+                  <li class="flex items-start gap-2"><i data-lucide="check" class="mt-1 h-4 w-4 shrink-0 text-amber"></i>Geoinformatics and Digital Earth students</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="mb-2 font-heading font-semibold text-amber-light">Prerequisites</h4>
+                <ul class="space-y-2 text-slate">
+                  <li class="flex items-start gap-2"><i data-lucide="check" class="mt-1 h-4 w-4 shrink-0 text-amber"></i>Basic knowledge of GIS or IT</li>
+                  <li class="flex items-start gap-2"><i data-lucide="check" class="mt-1 h-4 w-4 shrink-0 text-amber"></i>Familiarity with Python is helpful but not required</li>
+                  <li class="flex items-start gap-2"><i data-lucide="check" class="mt-1 h-4 w-4 shrink-0 text-amber"></i>No prior Cloud Native Geospatial experience needed</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="schedule" class="bg-navy-dark py-24">
-        <div class="mx-auto max-w-4xl px-6 text-center">
-          <h2 class="mb-8 font-heading text-3xl font-bold md:text-4xl" data-aos="fade-up">
+        <div class="mx-auto max-w-5xl px-6">
+          <h2 class="mb-16 text-center font-heading text-3xl font-bold md:text-4xl" data-aos="fade-up">
             <span class="text-amber">Schedule</span>
           </h2>
-          <div
-            class="rounded-2xl border border-white/10 bg-navy/40 px-8 py-16 backdrop-blur-sm"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <i data-lucide="clock" class="mx-auto mb-4 h-10 w-10 text-amber/50"></i>
-            <p class="font-heading text-xl font-semibold text-slate">Coming Soon</p>
-            <p class="mt-2 text-sm text-slate/60">The detailed programme will be announced shortly.</p>
+          <div class="grid gap-12 lg:grid-cols-2">
+            <div data-aos="fade-up">
+              <div class="mb-8 border-b border-amber/30 pb-4">
+                <p class="text-xs font-semibold uppercase tracking-widest text-amber/60">Foundations</p>
+                <h3 class="font-heading text-xl font-bold">Day 1 &mdash; April 13</h3>
+              </div>
+              <div class="space-y-3">
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">10:00 &ndash; 10:30</p>
+                  <p class="font-heading text-[15px] font-semibold">Welcome &amp; Workshop Overview</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">10:30 &ndash; 11:15</p>
+                  <p class="font-heading text-[15px] font-semibold">Introduction to Earth Observation Data</p>
+                  <p class="mt-1 text-sm text-slate">How EO data is captured, what information it stores and how it can be used</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber/30 py-3 pr-5 pl-5">
+                  <p class="flex items-center gap-1.5 text-sm text-slate/70"><i data-lucide="coffee" class="h-3.5 w-3.5 text-amber/40"></i>11:15 &ndash; 11:30 &middot; Coffee Break</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">11:30 &ndash; 12:30</p>
+                  <p class="font-heading text-[15px] font-semibold">Cloud Native Geospatial &amp; File Formats</p>
+                  <p class="mt-1 text-sm text-slate">Cloud Optimized GeoTIFF (COG), STAC, Zarr &amp; why they matter</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber/30 py-3 pr-5 pl-5">
+                  <p class="flex items-center gap-1.5 text-sm text-slate/70"><i data-lucide="utensils" class="h-3.5 w-3.5 text-amber/40"></i>12:30 &ndash; 13:00 &middot; Lunch Break</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">13:00 &ndash; 14:00</p>
+                  <p class="font-heading text-[15px] font-semibold">Introduction to Data Cubes</p>
+                  <p class="mt-1 text-sm text-slate">Concepts, architecture &amp; how they enable scalable EO analysis</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">14:00 &ndash; 15:00</p>
+                  <p class="font-heading text-[15px] font-semibold">Live Demo &amp; Q&amp;A</p>
+                  <p class="mt-1 text-sm text-slate">Accessing and visualizing cloud native EO data end to end</p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="150">
+              <div class="mb-8 border-b border-amber/30 pb-4">
+                <p class="text-xs font-semibold uppercase tracking-widest text-amber/60">Hands-on</p>
+                <h3 class="font-heading text-xl font-bold">Day 2 &mdash; April 14</h3>
+              </div>
+              <div class="space-y-3">
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">10:00 &ndash; 11:15</p>
+                  <p class="font-heading text-[15px] font-semibold">Python Analysis with Cloud Native EO Data</p>
+                  <p class="mt-1 text-sm text-slate">Inline analysis on real-world areas using Python &amp; COGs</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber/30 py-3 pr-5 pl-5">
+                  <p class="flex items-center gap-1.5 text-sm text-slate/70"><i data-lucide="coffee" class="h-3.5 w-3.5 text-amber/40"></i>11:15 &ndash; 11:30 &middot; Coffee Break</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">11:30 &ndash; 13:30</p>
+                  <p class="font-heading text-[15px] font-semibold">Team Project: Deriving Insights from Data Cubes</p>
+                  <p class="mt-1 text-sm text-slate">Teams tackle real EO challenges and extract meaningful results</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber/30 py-3 pr-5 pl-5">
+                  <p class="flex items-center gap-1.5 text-sm text-slate/70"><i data-lucide="utensils" class="h-3.5 w-3.5 text-amber/40"></i>13:30 &ndash; 14:30 &middot; Lunch Break</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">14:30 &ndash; 15:15</p>
+                  <p class="font-heading text-[15px] font-semibold">Team Presentations &amp; Discussion</p>
+                  <p class="mt-1 text-sm text-slate">Each team showcases findings and analysis outcomes</p>
+                </div>
+                <div class="rounded-lg border-l-2 border-amber bg-navy/40 py-4 pr-5 pl-5">
+                  <p class="mb-1 text-xs font-medium text-amber">15:15 &ndash; 15:30</p>
+                  <p class="font-heading text-[15px] font-semibold">Wrap-up, Photo Session &amp; Closing</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -213,7 +306,10 @@
               <img src="./logos/eu-cofunded.png" alt="Co-funded by the European Union" class="h-12" />
             </a>
             <a href="https://master-cde.eu" target="_blank" rel="noopener noreferrer" class="transition hover:opacity-80" title="Copernicus Master in Digital Earth">
-              <img src="./logos/eu-cofunded-cde.png" alt="Copernicus Master in Digital Earth" class="h-12" />
+              <img src="./logos/master-cde.jpg" alt="Copernicus Master in Digital Earth" class="h-12" />
+            </a>
+            <a href="https://www.virtughan.com" target="_blank" rel="noopener noreferrer" class="transition hover:opacity-80" title="VirtuGhan">
+              <img src="./logos/virtughan.png" alt="VirtuGhan" class="h-12 rounded-full" />
             </a>
             <a href="https://www.plus.ac.at" target="_blank" rel="noopener noreferrer" class="transition hover:opacity-80" title="Paris Lodron University Salzburg">
               <img src="./logos/plus-salzburg.png" alt="Paris Lodron University Salzburg" class="h-10" />
@@ -247,6 +343,22 @@
               <i data-lucide="mail" class="h-5 w-5"></i>
               msc-cde@plus.ac.at
             </a>
+            <div class="mt-4 flex flex-col items-center gap-3 sm:flex-row sm:gap-8">
+              <a
+                href="mailto:kshitij.sharma@stud.plus.ac.at"
+                class="flex items-center gap-2 text-sm text-slate transition hover:text-amber"
+              >
+                <i data-lucide="mail" class="h-4 w-4"></i>
+                Kshitij Raj Sharma
+              </a>
+              <a
+                href="mailto:upendra.oli@stud.plus.ac.at"
+                class="flex items-center gap-2 text-sm text-slate transition hover:text-amber"
+              >
+                <i data-lucide="mail" class="h-4 w-4"></i>
+                Upendra Oli
+              </a>
+            </div>
             <a
               href="https://www.virtughan.com"
               target="_blank"
@@ -256,6 +368,15 @@
               <i data-lucide="globe" class="h-5 w-5"></i>
               www.virtughan.com
             </a>
+            <a
+              href="https://github.com/virtughan"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-2 text-lg text-slate transition hover:text-amber"
+            >
+              <i data-lucide="github" class="h-5 w-5"></i>
+              github.com/virtughan
+            </a>
           </div>
         </div>
       </section>
@@ -263,7 +384,12 @@
 
     <footer class="border-t border-white/10 bg-navy-dark py-8">
       <p class="text-center text-sm text-slate/60">
-        &copy; 2026 CIVIS Alliance &middot; Copernicus Master in Digital Earth
+        &copy; 2026 Organized by students of
+        <a href="https://master-cde.eu" target="_blank" rel="noopener noreferrer" class="underline decoration-slate/30 underline-offset-2 transition hover:text-slate">Master CDE</a>
+        &amp;
+        <a href="https://www.plus.ac.at" target="_blank" rel="noopener noreferrer" class="underline decoration-slate/30 underline-offset-2 transition hover:text-slate">University of Salzburg</a>
+        &middot; jointly with
+        <a href="https://civis.eu" target="_blank" rel="noopener noreferrer" class="underline decoration-slate/30 underline-offset-2 transition hover:text-slate">CIVIS Alliance</a>
       </p>
     </footer>
 

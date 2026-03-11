@@ -35,3 +35,15 @@ createIcons({
         Utensils,
     },
 });
+
+const heroBackgroundImage = document.querySelector<HTMLImageElement>("#hero-bg-image");
+
+if (heroBackgroundImage) {
+    const totalHeroImages = 7;
+    let currentHeroImage = 1;
+
+    window.setInterval(() => {
+        currentHeroImage = currentHeroImage >= totalHeroImages ? 1 : currentHeroImage + 1;
+        heroBackgroundImage.src = `./imgs/${currentHeroImage}.jpg`;
+    }, 3000);
+}

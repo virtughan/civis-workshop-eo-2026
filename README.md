@@ -1,6 +1,6 @@
 # CIVIS Workshop on Earth Observation Sciences
 
-One-pager event website for the CIVIS Student Led Workshop (April 13-14, 2026).
+One-pager event website for the CIVIS Student Led Workshop (May 27-28, 2026).
 
 ## Stack
 

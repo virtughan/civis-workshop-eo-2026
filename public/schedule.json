@@ -1,0 +1,128 @@
+{
+  "intro": "The workshop combines lectures, live demonstrations and hands-on activities to provide both conceptual understanding and practical experience.",
+  "days": [
+    {
+      "id": "day-1",
+      "label": "Foundations",
+      "title": "Day 1 : May 27",
+      "sessions": [
+        {
+          "type": "session",
+          "time": "09:30 – 10:00",
+          "title": "Registration"
+        },
+        {
+          "type": "session",
+          "time": "10:00 – 10:20",
+          "title": "Welcome and Workshop Overview",
+          "description": "Short introduction of participants",
+          "presenter": "VirtuGhan Team + others"
+        },
+        {
+          "type": "session",
+          "time": "10:20 – 10:30",
+          "title": "CIVIS Welcome and Presentation",
+          "presenter": "CIVIS / Lena Schäfer"
+        },
+        {
+          "type": "session",
+          "time": "10:30 – 11:15",
+          "title": "Introduction to Earth Observation Data",
+          "description": "How EO data is captured, what information it stores and how it can be used",
+          "presenter": "Dirk Tiede"
+        },
+        {
+          "type": "break",
+          "kind": "coffee",
+          "time": "11:15 – 11:30",
+          "title": "Coffee Break"
+        },
+        {
+          "type": "session",
+          "time": "11:30 – 12:15",
+          "title": "Introduction to Data Cubes",
+          "description": "Concepts, architecture & how they enable scalable EO analysis",
+          "presenter": "Upendra Oli"
+        },
+        {
+          "type": "break",
+          "kind": "lunch",
+          "time": "12:15 – 13:15",
+          "title": "Lunch Break"
+        },
+        {
+          "type": "session",
+          "time": "13:15 – 13:30",
+          "title": "Presentation: About iDEAS Lab and its works",
+          "presenter": "iDEAS Lab"
+        },
+        {
+          "type": "session",
+          "time": "13:30 – 14:15",
+          "title": "Cloud Native Geospatial & File Formats",
+          "description": "Cloud Optimized GeoTIFF (COG), STAC, Zarr & why they matter",
+          "presenter": "Kshitij Raj Sharma"
+        },
+        {
+          "type": "session",
+          "time": "14:15 – 15:15",
+          "title": "Live Demo, Hands-on: QGIS Plugin & Web UI",
+          "description": "Hands-on walkthrough of the VirtuGhan QGIS plugin and web UI for cloud native EO data",
+          "presenter": "Upendra Oli"
+        },
+        {
+          "type": "session",
+          "time": "18:00 onwards",
+          "title": "Pizza by the River (Optional Social)",
+          "description": "Meetup at Lievitamente Pizzeria, Elisabethstraße 21a, 5020 Salzburg. Grab pizza together and walk along the Salzach river.",
+          "presenter": "Lievitamente Pizzeria"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Hands-on",
+      "title": "Day 2 : May 28",
+      "sessions": [
+        {
+          "type": "session",
+          "time": "11:00 – 12:30",
+          "title": "Analysis in Python with Cloud Native EO Data",
+          "description": "Hands on session on real-world areas using Python & COGs",
+          "presenter": "Kshitij Raj Sharma"
+        },
+        {
+          "type": "break",
+          "kind": "lunch",
+          "time": "12:30 – 13:30",
+          "title": "Lunch Break"
+        },
+        {
+          "type": "session",
+          "time": "13:30 – 15:00",
+          "title": "Team Project: Deriving Insights from Data Cubes",
+          "description": "Teams tackle real EO challenges and extract meaningful results",
+          "presenter": "Combined Team"
+        },
+        {
+          "type": "break",
+          "kind": "coffee",
+          "time": "15:00 – 15:15",
+          "title": "Coffee Break"
+        },
+        {
+          "type": "session",
+          "time": "15:15 – 15:45",
+          "title": "Team Presentations & Discussion",
+          "description": "Each team showcases findings and analysis outcomes",
+          "presenter": "Combined Team"
+        },
+        {
+          "type": "session",
+          "time": "15:45 – 16:00",
+          "title": "Wrap-up, Photo Session & Closing"
+        }
+      ]
+    }
+  ]
+}

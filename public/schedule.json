@@ -65,7 +65,7 @@
         },
         {
           "type": "session",
-          "time": "14:15 – 15:15",
+          "time": "14:15 – 15:30",
           "title": "Live Demo, Hands-on: QGIS Plugin & Web UI",
           "description": "Hands-on walkthrough of the VirtuGhan QGIS plugin and web UI for cloud native EO data",
           "presenter": "Upendra Oli"
